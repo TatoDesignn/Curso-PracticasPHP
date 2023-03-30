@@ -60,5 +60,13 @@ de apellido {$personas['jose']['apellido']} y edad {$personas['jose']['Edad']}";
 
 //Manipular arreglos
 $edades = [12, 22, 40, 34];
-
+//contar cuantos elementos
 count($edades);
+//push (añade al final)
+array_push($edades, 13);
+//explode para separar string y guardarlo en un arreglo
+$frutas = "Manzana,Pera,Naranja";
+$arregloFrutas = explode(",", $frutas);
+//Implode hace lo contrario a explode
+$comidaArreglo = ["Pizza", "Salchicha", "Papas"];
+$comida = implode(" ", $comidaArreglo);
