@@ -70,3 +70,30 @@ $arregloFrutas = explode(",", $frutas);
 //Implode hace lo contrario a explode
 $comidaArreglo = ["Pizza", "Salchicha", "Papas"];
 $comida = implode(" ", $comidaArreglo);
+
+//Ciclo do While 
+do{
+    echo "Esto se ejecuta una vez si o si"; 
+}while(false);
+
+//Ciclo for 
+for ($i = 0; $i < 10; $i++){
+
+}
+
+//Ciclo foreach
+$otroArreglo = array(
+    "manzana" => 14,
+    "pera" => 10,
+    "Naranja" => 20
+);
+foreach($otroArreglo as $subindice => $valor){
+    echo "La fruta $subindice cuesta $valor pesos colombianos";
+    // la fruta MANZANA cuesta 14 pesos colombianos
+}
+
+//el break rompe el ciclo hace que termine
+//break 
+
+//el continue hace que siga con el siguiente ciclo no importa si hay algo mas abajo solo continua 
+//continue
